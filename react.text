@@ -1,0 +1,63 @@
+
+
+one way data sharing---react
+
+parent to child data sharing
+app.js ------parent
+user.js------child
+
+components:
+
+            * Create ajs file having a name starts with capital letter
+            
+            * Two types of components :
+             
+                 1. Class based components :>  stateful components
+
+                 2. function baced components :> statelesss component 
+
+                        .after 16th version
+                        
+                        . react hook:> hook is a predefined function and name start with use keyword
+                 
+                        . use predefined-function()
+
+                        . use state()
+
+                  state creation syntax-:>
+
+                        .const[statename,statevalueupdationfunction]=useState()
+
+
+state: It is used to store values and(Also it has an adv to transfer value) we can share state to child component
+
+prps: Is used to share data between parent and child
+
+conditional rendering: 
+ 
+ if and else -conditional operator
+
+ if - truthy operator
+
+
+
+axios
+---------
+
+Features:-
+
+=> Make XMLHttpRequests from the browser
+=> Make http requests from node.js
+=> Supports the Promise API
+=> Intercept request and response
+=> Transform request and response data
+=> Cancel requests
+=> Automatic transforms for JSON data
+=> 🆕 Automatic data object serialization to multipart/form-data and x-www-form-urlencoded body encodings
+=> Client side support for protecting against XSRF
+
+
+ axios step1 :=impot cheyya
+           2 := funcation defion cheyya (call back functio )
+           3 := post body content
+                 get body venda
